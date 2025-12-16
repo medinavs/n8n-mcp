@@ -138,7 +138,7 @@ export const n8nManagementTools: ToolDefinition[] = [
           description: 'Array of diff operations to apply. Each operation must have a "type" field and relevant properties for that operation type.',
           items: {
             type: 'object',
-            additionalProperties: true
+            additionalProperties: false
           }
         },
         validateOnly: {
